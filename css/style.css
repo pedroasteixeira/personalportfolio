@@ -287,7 +287,7 @@ aside img{
 
 #scroll-button.scroll-button{
     animation-name: hover;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
