@@ -60,7 +60,7 @@ body{
     align-items: center;
 }
 
-/*------logo*/
+/* ===== LOGO ===== */
 
 .logo{
     width:30%;
@@ -70,7 +70,7 @@ body{
     width: 4rem;
 }
 
-/*------icones-sm */
+/* ===== ICONES-SM ===== */
 
 
 .icons-mobile-wrapper{
@@ -79,7 +79,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: end;
-
 }
 
 .icons-mobile a{
@@ -179,7 +178,6 @@ nav .menu-mbl ul li:last-child{
     margin-bottom: 0;
 }
 
-
 nav .menu-mbl ul a{
     text-decoration: none;
     color: var(--dark);
@@ -246,10 +244,8 @@ aside img{
     background-color: var(--greenIn);
     border-radius: var(--border_s);
     border: 0;
-
     width: 100%;
     padding: 15px;
-    
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -331,14 +327,10 @@ aside img{
 
 .container-box .personagem {
     position: relative;
-    
     top: -4rem;
-    
     right: 0rem;
     float: right;
-    
     width: 100%;
-    
     height: 150%;
     background-size: auto 100%;
     background-repeat: no-repeat;
@@ -358,23 +350,18 @@ aside img{
     }
 }
 
-.personagem{
-    display: block;
-}
-
 .container-box span{
-    top: 200px;
+    top: 100%;
     z-index: -11;
-    left: 340px;
     margin: 0 auto;
     position: relative;
     display: block;
-    width: 20%;
+    width: 40%;
     height: 10px;
     border-radius: 50%;
     opacity: 1;
-    background-color: #0f0f0f;
-    filter: blur(6px);
+    background-color: #070707;
+    filter: blur(10px);
 }
 
 #sombra{
@@ -386,11 +373,15 @@ aside img{
 
 @keyframes sombra{
     50%{
-        width: 15%;
-        filter: blur(10px);
+        top: 99%;
+        width: 50%;
+        filter: blur(6px);
     }
 }
 
+.personagem{
+    display: block;
+}
 
 .box-outline{
     border: 4px solid var(--greenIn);
@@ -815,6 +806,36 @@ footer .redes-sociais a{
         border-radius: var(--border_l);
         z-index: -9;
     }
+    
+    .container-box span{
+        top: 100%;
+        z-index: -11;
+        margin: 0 auto;
+        position: relative;
+        display: block;
+        width: 50%;
+        height: 10px;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: #070707;
+        filter: blur(6px);
+    }
+    
+    #sombra{
+        animation-name: sombra;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes sombra{
+        50%{
+            top: 103.2%;
+            width: 40%;
+            filter: blur(10px);
+        }
+    }
+    
 
     /* ===== TRABALHOS ===== */
 
