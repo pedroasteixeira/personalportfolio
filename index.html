@@ -292,10 +292,12 @@
                 </div>
 
                 <div class="form">
-                    <form>
-                        <input type="text" placeholder="Nome" name="nome">
-                        <input type="text" placeholder="Email" name="email">
-                        <textarea style="font-size: var(--paragraph);" placeholder="Mensagem" nome="mensagem"></textarea>
+                    <form action="https://api.staticforms.xyz/submit" method="POST">
+                        <input type="hidden" name="accessKey" value="0a05cf06-ae08-400b-bbc0-cf94719a3a32">
+                        <input type="hidden" name="redirectTo" value="https://pedroasteixeira.netlify.app/">
+                        <input type="text" placeholder="Nome" name="name" required>
+                        <input type="text" placeholder="Email" name="email" required>
+                        <textarea style="font-size: var(--paragraph);" placeholder="Mensagem" name="message" required></textarea>
                         <div class="out-input">
                             <input type="submit" value="Enviar">
                         </div>
