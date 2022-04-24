@@ -163,6 +163,10 @@ nav .menu-mbl ul{
 
 nav .menu-mbl ul li{
     width: 100%;
+    background-color: var(--greenIn);
+    border-radius: 30px;
+    padding: 30px;
+    margin: 0 0 30px;
 }
 
 nav .menu-mbl ul li:hover{
@@ -174,12 +178,6 @@ nav .menu-mbl ul li:last-child{
 }
 
 nav .menu-mbl ul a{
-    width: 100%;
-    background-color: var(--greenIn);
-    border-radius: 30px;
-    padding: 30px;
-    margin: 0 0 10px;
-    
     text-decoration: none;
     color: var(--dark);
     font-weight: bold;
