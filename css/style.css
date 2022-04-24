@@ -162,7 +162,6 @@ nav .menu-mbl ul{
 }
 
 nav .menu-mbl ul li{
-    border: 1px solid red;
     width: 100%;
     background-color: var(--greenIn);
     border-radius: 30px;
