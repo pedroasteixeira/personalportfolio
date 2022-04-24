@@ -178,7 +178,7 @@ nav .menu-mbl ul li:last-child{
 }
 
 nav .menu-mbl ul a{
-    padding: 10px;
+    padding: 3px;
     text-decoration: none;
     color: var(--dark);
     font-weight: bold;
